@@ -1,12 +1,17 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>First JS Project</title>
+  <meta charset="UTF-8">
+  <title>API Fetcher</title>
 </head>
 <body>
-  <h1>Hello JavaScript</h1>
-  <script>
-    console.log("JS is working!");
-  </script>
+  <h1>Simple API Fetcher</h1>
+  <input type="text" id="apiUrl" placeholder="Enter API URL" size="50">
+  <button onclick="fetchData()">Fetch Data</button>
+
+  <h3>Response:</h3>
+  <pre id="responseOutput" style="background:#f4f4f4; padding:10px;"></pre>
+
+  <script src="script.js"></script>
 </body>
 </html>
